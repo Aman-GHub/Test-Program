@@ -1,0 +1,10 @@
+@EndUserText.label: 'Access Control for Kpop Idols'
+@MappingRole: true
+define role ZAMAN_P_IDOLS {
+    grant
+        select
+            on
+                ZAMAN_P_IDOLS;
+//                ZAMAN_P_IDOLS where idol_name = 'Jennie'; 
+                
+}

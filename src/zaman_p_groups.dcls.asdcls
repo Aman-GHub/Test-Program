@@ -1,0 +1,9 @@
+@EndUserText.label: 'Access Control for Kpop Groups'
+@MappingRole: true
+define role ZAMAN_P_GROUPS {
+    grant 
+        select
+            on
+                ZAMAN_P_GROUPS;
+                        
+}

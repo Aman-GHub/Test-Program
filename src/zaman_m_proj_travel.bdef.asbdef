@@ -1,0 +1,29 @@
+projection;
+//strict ( 2 ); //Uncomment this line in order to enable strict mode 2. The strict mode has two variants (strict(1), strict(2)) and is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZAMAN_M_PROJ_TRAVEL alias Travel
+{
+  use create;
+  use update;
+  use delete;
+
+  use association _Booking { create; }
+}
+
+define behavior for ZAMAN_M_PROJ_BOOKING alias Booking
+{
+  use update;
+  use delete;
+
+  use association _Travel;
+//  use association _Booksupplement { create; }
+}
+
+//define behavior for ZAMAN_M_PROJ_BOOK_SUPP alias BookingS
+//{
+//  use update;
+//  use delete;
+//
+//  use association _Travel;
+//  use association _Booking;
+//}

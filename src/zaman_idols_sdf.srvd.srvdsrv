@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Idols'
+define service ZAMAN_IDOLS_SDF {
+  expose ZAMAN_P_IDOLS;
+}

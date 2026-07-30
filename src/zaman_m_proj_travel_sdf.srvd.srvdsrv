@@ -1,0 +1,10 @@
+@EndUserText.label: 'Service Definition for Travel'
+define service ZAMAN_M_PROJ_TRAVEL_SDF {
+  expose ZAMAN_M_PROJ_TRAVEL;
+  expose ZAMAN_M_PROJ_BOOKING;
+  expose ZAMAN_M_PROJ_BOOK_SUPP;
+  expose /DMO/I_Agency;
+  expose /DMO/I_Customer;
+  expose I_Currency;
+  expose I_Country;
+}

@@ -1,0 +1,6 @@
+@EndUserText.label: 'Service Definition for Travel details'
+define service ZAMAN_C_TRAVEL_SDF {
+  expose ZAMAN_C_TRAVEL;
+  expose ZAMAN_P_CUST;
+  expose ZAMAN_P_AGENCY;
+}
